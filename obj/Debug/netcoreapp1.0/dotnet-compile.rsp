@@ -1,5 +1,5 @@
---temp-output:/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/obj/Debug/netcoreapp1.0/
---out:/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/bin/Debug/netcoreapp1.0/Web Crawler DotNet.dll
+--temp-output:/Users/nilsbergmann/Web-Crawler-DotNet/obj/Debug/netcoreapp1.0/
+--out:/Users/nilsbergmann/Web-Crawler-DotNet/bin/Debug/netcoreapp1.0/Web-Crawler-DotNet.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -9,7 +9,7 @@
 --optimize:False
 --debug-type:portable
 --emit-entry-point:True
---output-name:Web Crawler DotNet
+--output-name:Web-Crawler-DotNet
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -91,5 +91,5 @@
 --reference:/Users/nilsbergmann/.nuget/packages/System.Threading.Timer/4.0.1/ref/netstandard1.2/System.Threading.Timer.dll
 --reference:/Users/nilsbergmann/.nuget/packages/System.Xml.ReaderWriter/4.0.11/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/Users/nilsbergmann/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll
-/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/Program.cs
-/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/Properties/AssemblyInfo.cs
+/Users/nilsbergmann/Web-Crawler-DotNet/Program.cs
+/Users/nilsbergmann/Web-Crawler-DotNet/Properties/AssemblyInfo.cs

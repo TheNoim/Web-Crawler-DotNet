@@ -44,20 +44,20 @@ namespace WebCrawlerDotNet
                                       currentindex);
                     int x = currentindex;
                     currentthreads++;
-                    Task.Run(() => requestThread(x));
+                    int y = currentthreads;
+                    Task.Run(() => requestThread(x, y));
                     currentindex++;
                 }
             }
         }
 
 
-        public static async void requestThread(int index)
+        public static async void requestThread(int index, int thisthread)
         {
-            int th = currentthreads;
             try
             {
                 string url = links[index];
-                Console.WriteLine("[Request Thread "+th+"] URL: " + url);
+                Console.WriteLine("[Request Thread "+thisthread+"] URL: " + url);
                 HttpClient client = new HttpClient();
                 Uri uri = new Uri(url);
                 client.BaseAddress = uri;
@@ -67,12 +67,12 @@ namespace WebCrawlerDotNet
                 {
                     if (!links.Contains(m.Value)) links.Add(m.Value);
                 }
-                currentthreads--;
+                currentthreads = currentthreads - 1;
             }
             catch (Exception)
             {
-                currentthreads--;
-                Console.WriteLine("[Request Thread "+th+"] Error.");
+                currentthreads = currentthreads - 1;
+                Console.WriteLine("[Request Thread "+thisthread+"] Error.");
             }
         }
     }

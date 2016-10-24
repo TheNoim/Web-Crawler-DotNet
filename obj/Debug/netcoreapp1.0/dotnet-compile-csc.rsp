@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
--out:"/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/bin/Debug/netcoreapp1.0/Web Crawler DotNet.dll"
+"/Users/nilsbergmann/Web-Crawler-DotNet/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
+-out:"/Users/nilsbergmann/Web-Crawler-DotNet/bin/Debug/netcoreapp1.0/Web-Crawler-DotNet.dll"
 -r:"/Users/nilsbergmann/.nuget/packages/Microsoft.CSharp/4.0.1/ref/netstandard1.0/Microsoft.CSharp.dll"
 -r:"/Users/nilsbergmann/.nuget/packages/Microsoft.Extensions.Logging.Abstractions/1.0.0/lib/netstandard1.1/Microsoft.Extensions.Logging.Abstractions.dll"
 -r:"/Users/nilsbergmann/.nuget/packages/Microsoft.VisualBasic/10.0.1/ref/netstandard1.1/Microsoft.VisualBasic.dll"
@@ -86,5 +86,5 @@
 -r:"/Users/nilsbergmann/.nuget/packages/System.Threading.Timer/4.0.1/ref/netstandard1.2/System.Threading.Timer.dll"
 -r:"/Users/nilsbergmann/.nuget/packages/System.Xml.ReaderWriter/4.0.11/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/nilsbergmann/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll"
-"/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/Program.cs"
-"/Users/nilsbergmann/RiderProjects/Web Crawler DotNet/Properties/AssemblyInfo.cs"
+"/Users/nilsbergmann/Web-Crawler-DotNet/Program.cs"
+"/Users/nilsbergmann/Web-Crawler-DotNet/Properties/AssemblyInfo.cs"
